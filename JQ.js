@@ -1,10 +1,5 @@
 $("document").ready(function(){
     // THis document above, is refer to all document in this JQ. Make use of the ready in your javascript and Jquery.
-    
-    
-
-
-
 
 
     // Dialog box, that is the message you receive you you send a messg or click a button
@@ -18,6 +13,26 @@ $("document").ready(function(){
     modal: true,
     autoOpen: false
    })
+   // toaste
+   $.toast({
+      text : "07032958667.",
+      // hideAfter : "false",
+      hideAfter : "90000",              
+      heading : "Customer service!!",
+      icon : "info",
+      showHideTransition : "slide",
+      allowToastClose : false,                     
+  
+  
+  //   bgColor : 'blue',               Background color for toast
+  //   textColor : '#eee',             text color
+  //   allowToastClose : false,        Show the close button or not
+  //   hideAfter : 5000,               `false` to make it sticky or time in miliseconds to hide after
+  //   stack : 5,                      `fakse` to show one stack at a time count showing the number of toasts that can be shown at once
+  //   textAlign : 'left',             Alignment of text i.e. left, right, center
+  //   position : 'bottom-left'       bottom-left or bottom-right or bottom-center or top-left or 
+  });
+  
   
 
 
