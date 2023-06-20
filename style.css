@@ -47,7 +47,7 @@ textarea,button{
 
 .section-title h1{
     display: inline-block;
-    font-size: 40px;
+    font-size: 30px;
     color: #000000;
     font-weight: 700;
     margin: 0;
@@ -574,21 +574,22 @@ position absolute take all, pending your sittling */
 
 
 /* new design for about ends here */
-.about-section{
+.about-section .green-coffee{
     padding: 80px 0 0;
     background: linear-gradient(#029a6a, #012221);
     /* border: 4px solid white; */
 }
 .about-section h1{
     color: white;
+    left: 30%;
 }
 .about-content p{
     color: white;
 }
-.about-section .about-img{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    padding: 0 15px;
+ .about-section .about-img{
+    /* flex: 0 0 33.33%; */
+    max-width: 70%;
+    margin: 50px;
 }
 
 .about-section .about-img .img-box{
@@ -607,11 +608,11 @@ position absolute take all, pending your sittling */
 .about-section .about-img .img-box img{
     width: 100%;
     display: block;
-}
+} */
 
 .about-section .about-content{
-    flex: 0 0 66.66%;
-    max-width: 66.66%;
+    /* flex: 0 0 66.66%; */
+    /* max-width: 66.66%; */
     padding: 0 15px;
 }
 
@@ -688,8 +689,6 @@ position absolute take all, pending your sittling */
 .product-section{
     padding: 80px 0 0;
     background-color: white;
-    /* background-color: white; */
-    /* border: 4px solid #cfcccc; */
 
 }
 .product-section .product-img{
@@ -707,21 +706,26 @@ position absolute take all, pending your sittling */
     display: block;
 }
 
-.product-section .product-content{
-    flex: 0 0 66.66%;
-    max-width: 66.66%;
-    padding: 0 15px;
-}
+/* .product-section .product-content{ */
+    /* flex: 0 0 66.66%; */
+    /* max-width: 66.66%; */
+    /* padding: 0 15px; */
+/* } */
+
 
 .product-section .section-title{
     margin-bottom: 30px;
     padding: 0;
 }
+.section-title h1{
+    left: 40px;
+}
+
 .product-section .product-content p{
     font-size: 16px;
     color: #555555;
     line-height: 26px;
-    margin: 0;
+    bottom: 10px;
 }
 .product-section .product-content .stats .stat-box{
     flex: 0 0 25%;
@@ -755,14 +759,15 @@ position absolute take all, pending your sittling */
 }
 
 .video-section{
-    margin-top: 80px;
+    bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .video-section video{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    bottom: 10px;
 }
 
 
@@ -850,11 +855,13 @@ position absolute take all, pending your sittling */
     padding: 0 15px;
     margin-bottom: 40px;
 }
-.order-section .order-info .info-item h5{
+.order-section .order-info .info-item h5, p{
     font-size: 16px;
     font-weight: 600;
     margin: 0;
+    color: #fff;
 }
+
 
 .order-section .social-links{
     flex: 0 0 100%;
